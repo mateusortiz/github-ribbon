@@ -1,0 +1,19 @@
+{
+    "name": "github-ribbon",
+    "version": "0.0.0",
+    "description": "Web Component wrapper for Github ribbon using Polymer.",
+    "license": "MIT",
+    "main": "dist/github-ribbon.html",
+    "keywords": [
+        "polymer",
+        "web-components"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "polymer": "Polymer/polymer#^0.5.1"
+    }
+}
