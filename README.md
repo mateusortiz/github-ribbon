@@ -40,19 +40,8 @@ Or [download as ZIP](https://github.com/mateusortiz/github-ribbon/archive/master
 
 Attribute     | Options     | Default      | Description
 ---           | ---         | ---          | ---
-`foo`         | *string*    | `bar`        | Lorem ipsum dolor.
-
-## Methods
-
-Method        | Parameters   | Returns     | Description
----           | ---          | ---         | ---
-`unicorn()`   | None.        | Nothing.    | Magic stuff appears.
-
-## Events
-
-Event         | Description
----           | ---
-`onsomething` | Triggers when something happens.
+`user`         | *string*    | `mateusortiz`        | Your user Github.
+`repo`         | *string*    | `webcomponents-the-right-way`        | Your repo on Github.
 
 ## Development
 
