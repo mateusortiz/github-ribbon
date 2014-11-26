@@ -2,27 +2,16 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
 <!-- Define your custom element -->
-<polymer-element name="github-ribbon" attributes="">
+<polymer-element name="github-ribbon" attributes="user repo">
+
+    <template>
+        <a href="https://github.com/{{user}}/{{repo}}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+    </template>
 
     <script>
         Polymer('github-ribbon', {
-            // Fires when an instance of the element is created
-            created: function() {},
-
-            // Fires when the element’s initial set of children and siblings are guaranteed to exist
-            domReady: function() {},
-
-            // Fires when the "<polymer-element>" has been fully prepared
-            ready: function() {},
-
-            // Fires when the element was inserted into the document
-            attached: function() {},
-
-            // Fires when the element was removed from the document
-            detached: function() {},
-
-            // Fires when an attribute was added, removed, or updated
-            attributeChanged: function(attr, oldVal, newVal) {}
+            user    : 'mateusortiz',
+            repo    : 'webcomponents-the-right-way'
         });
     </script>
 
